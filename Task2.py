@@ -16,6 +16,6 @@ def print_operation_table(operation, num_rows, num_columns):
         print()
 
 operation = lambda x, y: x*y
-num_rows = 9
-num_columns = 9
+num_rows = int(input('Введите первое число: '))
+num_columns = int(input('Введите второе число: '))
 print_operation_table(operation, num_rows, num_columns)
